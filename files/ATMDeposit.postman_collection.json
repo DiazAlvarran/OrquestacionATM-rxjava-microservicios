@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "ca5eca1d-547a-42ad-bd0c-a87c8175289a",
+		"name": "ATMDeposit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ATMDeposit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"documentNumber\": \"10000000\",\r\n    \"amount\": 300\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/atm/deposits/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"atm",
+						"deposits",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
